@@ -523,7 +523,7 @@
             }
             
             #user-artwork {
-                border-radius: 5px 5px 0 0;
+                border-radius: 0;
             }
             
             .music-link__container:not(.music-link__container--custom-text):hover {

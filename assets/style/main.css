@@ -617,3 +617,43 @@ footer p{
 	font-size: 3vw; 
 	}
 }
+/* Discography */
+.discography {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+}
+.album {
+	width: 28%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffffff;
+}
+.album img {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	transition: transform 0.2s;
+}
+.album:hover img {
+	transform: scale(1.03);
+}
+.album h3 {
+	margin-top: 16px;
+}
+.album p {
+	color: #ff1616;
+}
+@media screen and (max-width: 768px) {
+	.album {
+		width: 70%;
+	}
+	.album h3 {
+		font-size: 4vw;
+	}
+	.album p {
+		font-size: 3.4vw;
+	}
+}
