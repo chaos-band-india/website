@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="true"/>
+    <meta name="description" content="CHAOS">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Mr.Cyanide">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes"/>
+
+	<title>Chaos | India’s Premier Thrash Metal Band | Official Website</title>
+	<!-- css  -->
+	<link rel="stylesheet" href="assets/style/reset.css" />
+    <link rel="stylesheet" href="assets/style/main.css" />
+    <link rel="stylesheet" href="assets/style/timeforwar.css" />
+
+    <!-- script  -->
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+    <!--  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+	<!-- Meta Pixel Code -->
+	<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1144376324685954'); fbq('track', 'PageView');</script><noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=1144376324685954&ev=PageView&noscript=1"/></noscript>
+	
+
+	<script>
+		document.addEventListener('click', function (e) {
+		  var link = e.target.closest('a');
+		  if (!link || !link.href) return;
+		
+		  var platforms = [
+		    { match: 'open.spotify.com',        name: 'Spotify' },
+		    { match: 'music.apple.com',         name: 'AppleMusic' },
+		    { match: 'chaosthrash.bandcamp.com',name: 'Bandcamp' },
+		    { match: 'music.youtube.com',       name: 'YouTubeMusic' },
+		    { match: 'music.amazon',            name: 'AmazonMusic' },
+		    { match: 'deezer.com',              name: 'Deezer' }
+		  ];
+		
+		  for (var i = 0; i < platforms.length; i++) {
+		    if (link.href.indexOf(platforms[i].match) !== -1) {
+		      if (typeof fbq === 'function') {
+		        fbq('trackCustom', 'StreamClick', { platform: platforms[i].name });
+		        // Also fire a standard "Lead" event so it's usable as a
+		        // conversion objective inside Ads Manager without extra setup
+		        fbq('track', 'Lead', { content_name: platforms[i].name });
+		      }
+		      break;
+		    }
+		  }
+		});
+	</script>
+<!-- End Meta Pixel Code -->
+
+
+</head>
+<body>
+<center>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ml_IN/sdk.js#xfbml=1&version=v22.0"></script>
+	<main>
+		
+		<div id="container" class="container">
+
+
+        <div id="bg_container" style="display: block;">
+            <img id="bg_img" width="600" height="600" alt="Background image" src="assets/img/Bane_of_Humanity.jpg">
+        </div>
+
+
+            <audio id="audio-preview" preload="none" src="assets/img/It's Time for War.mp3" style="display:none"></audio>
+
+        <div id="content">
+    
+            <div style="position:relative">
+                <img id="user-artwork" src="assets/img/Bane_of_Humanity.jpg" style="display: block; width: 100%; max-width: 400px; min-height: unset;" fetchpriority="high" alt="It's Time for War">
+
+                    <img id="play-button" src="assets/img/play-circle-outline.svg" style="position:absolute;top:50%;left:50%">
+
+            </div> 
+
+            
+
+        <h1 class="platforms-list__name metal-mania-regular">
+            Bane Of Humanity
+        </h1>
+
+        <div class="platforms-list__container">
+            <div class="platform-list">
+
+                <div class="music-link__container">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/spotify.svg" alt="spotify">
+                        </span>
+
+                   <a href="https://open.spotify.com/album/3TaT4GtBv8CPdBHr6s3iLc" target="_blank" > <button class="music-link__button">Listen</button></a>
+                </div>
+
+                <div class="music-link__container" platform="apple-music">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/apple-music.svg" alt="apple-music">
+                        </span>
+
+                    <a href="https://music.apple.com/us/album/bane-of-humanity/6801106003" target="_blank"> <button class="music-link__button">Listen</button></a>
+                </div>
+
+                <div class="music-link__container" platform="bandcamp">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/bandcamp.svg" alt="bandcamp">
+                        </span>
+
+                    <a href="https://chaosthrash.bandcamp.com/album/bane-of-humanity" target="_blank"> <button class="music-link__button">Listen</button> </a>
+                </div>
+
+                <div class="music-link__container" platform="youtube-music">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/youtube-music.svg" alt="youtube-music">
+                        </span>
+
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_nXCkLNDh4HKnYSeTRFkqAfd0jeMTZ1n1w" target="_blank"> <button class="music-link__button">Listen</button> </a>
+                </div>
+
+                <div class="music-link__container" platform="amazon-music">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/amazon-music.svg" alt="amazon-music">
+                        </span>
+
+                    <a href="https://music.amazon.in/albums/B0HF54HRXJ" target="_blank"> <button class="music-link__button">Listen</button></a>
+                </div>
+
+				<div class="music-link__container" platform="amazon-music">
+
+                        <span class="music-link__logo-container">
+                            <img class="music-link__logo" src="assets/img/deezer.svg" alt="amazon-music">
+                        </span>
+
+                    <a href="https://www.deezer.com/album/1053277062" target="_blank"> <button class="music-link__button">Listen</button></a>
+                </div>
+               
+
+                <div class="music-link__container" platform="custom_platform">
+                    
+                        <!-- Custom Platform -->
+                        <p class="music-link__custom-platform">🛒 Bane Of Humanity, worldwide shipping</p>
+
+                    <a href="https://chaosthrash.bandcamp.com/music" target="_blank"> <button class="music-link__button">Buy album</button></a>
+                </div>
+
+
+        
+                <div class="music-link__social-media-container">
+                    <a class="music-link__social-media" target="_blank" href="https://www.facebook.com/chaosindia" title="View facebook">
+                        <img height="25px" src="assets/img/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="music-link__social-media" target="_blank" href="https://www.instagram.com/chaos_thrash/" title="View instagram">
+                        <img height="25px" src="assets/img/instagram.svg" alt="instagram">
+                    </a>
+                    <a class="music-link__social-media" target="_blank" href="https://x.com/chaos_metal" title="View twitter">
+                        <img height="25px" src="assets/img/twitter.svg" alt="twitter">
+                    </a>
+                    <a class="music-link__social-media" target="_blank" href="https://www.youtube.com/chaosindia" title="View youtube">
+                        <img height="25px" src="assets/img/youtube.svg" alt="youtube">
+                    </a>
+                    <a class="music-link__social-media" target="_blank" href="mailto:chaosindia.theband@gmail.com" title="Email us">
+                        <img height="25px" src="assets/img/email.svg" alt="Email us">
+                    </a>
+                </div>
+
+                <div class="music-link__social-media-container" style="background-color: #111111; padding-top: 4vi;">
+                    <a href="https://chaos.co.in"><img src="assets/img/CHAOS-logo.png"> </a>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+       
+        </div>
+       
+    </div>
+
+     <script>
+
+        //*** General Modal Functions ***//
+        function modalOpen(sModalQuery) {
+            var eModal = document.querySelector(sModalQuery);
+            if (eModal) eModal.style.display = 'block';
+        }
+
+        function modalClose(sModalQuery) {
+            var eModal = document.querySelector(sModalQuery);
+            if (eModal) eModal.style.display = 'none';
+        }
+
+        function modalsClose() {
+            // Set event listener for manage privacy buttons
+            var aModals = document.querySelectorAll('.modal-container');
+            for (var i = 0; i < aModals.length; i++) aModals[i].style.display = 'none';
+        }
+
+        // Set event listener for closing modals on click outside
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('modal-container')) modalsClose();
+            if (e.target.classList.contains('modal-close')) modalsClose();
+            if (e.target.classList.contains('modal-close-button')) modalsClose();
+        });
+
+        // On Page Load -- Send link view (deduplicated with localStorage)
+        (function() {
+            var linkId = '69e60a3f6dc1188b76c3e881';
+            var storageKey = 'lt_viewed_' + linkId;
+            var now = Date.now();
+            var fiveMinutes = 5 * 60 * 1000; // 5 minutes in milliseconds
+            
+            try {
+                var lastViewed = localStorage.getItem(storageKey);
+                
+                // Only count view if never viewed or last view was more than 5 minutes ago
+                if (!lastViewed || (now - parseInt(lastViewed, 10)) > fiveMinutes) {
+                    ajaxGET("https://" + window.location.hostname + "/v/id/" + linkId);
+                    localStorage.setItem(storageKey, now.toString());
+                }
+            } catch (e) {
+                // localStorage not available, fall back to always tracking
+                ajaxGET("https://" + window.location.hostname + "/v/id/" + linkId);
+            }
+        })();
+
+        // Attach event listeners for platform clicks
+        document.querySelectorAll('.music-link__button--platform-visit').forEach(function(e) {
+            e.addEventListener('click', handleServiceClick);
+        });
+
+        document.querySelectorAll('.music-link__container--platform-visit').forEach(function(e) {
+            e.addEventListener('click', function(element) {
+                // Do not double send visit
+                if (element.target.classList.contains('music-link__button--platform-visit')) return;
+                handleServiceClick(element);
+            });
+        });
+
+        // handleServiceClick
+        function handleServiceClick(e) {
+
+            var sPlatformID = e.target.getAttribute('data-id') || e.target.parentNode.getAttribute('data-id');
+            var sPlatform = e.target.getAttribute('data-platform') || e.target.parentNode.getAttribute('data-platform');
+            var sPlatformURL = e.target.getAttribute('data-url') || e.target.parentNode.getAttribute('data-url');
+
+            if (!sPlatformID || !sPlatformURL) {
+                console.error('handleServiceClick: No platform ID or platform URL');
+                return;
+            }
+            
+            // Pixel Custom Events
+            if (bFacebookPixel) {
+                console.log('Firing Facebook Platform Visit event');
+                fbq('trackCustom', 'ListenTo - Platform Visit', {
+                    musicservice: sPlatform || 'unknown',
+                    musicservice_url: sPlatformURL || 'unknown'
+                });
+            }
+
+            if (bTwitterPixel) {
+                console.log('Firing Twitter Platform Visit event');
+                twq('trackCustom', 'ListenTo - Platform Visit', {
+                    musicservice: sPlatform || 'unknown',
+                    musicservice_url: sPlatformURL || 'unknown'
+                });
+            }
+
+            if (bGooglePixel) {
+                console.log('Firing Google Platform Visit event');
+                gtag('event', 'ListenTo - Platform Visit', {
+                    send_to: '',
+                    musicservice: sPlatform || 'unknown',
+                    musicservice_url: sPlatformURL || 'unknown'
+                });
+            }
+
+            // Log click
+            ajaxPOST("/links/platform/visit", { slug: 'its-time-for-war', id: sPlatformID }, function(err, res) {
+                // Redirect user
+                window.location = ensureURL(sPlatformURL) || '';
+            })
+            
+        }
+
+        // ensureURL
+        function ensureURL(url) {
+
+            // If url contains iTunes Store URI scheme, no changes needed
+            if ((url.substring(0, 7) === "itms://") || (url.substring(0, 11) === "itms-apps://")) {
+                return url;
+            }
+
+            // If url contains https://, redirect directly.
+            if (url.substring(0, 8) === "https://") {
+                return url;
+
+                // If url contains http://, redirect directly.
+            } else if (url.substring(0, 7) === "http://") {
+                return url;
+
+                // Append http:// and redirect
+            } else {
+                url = "http://" + url;
+            }
+            return url;
+        }
+
+
+        // If user uploaded artwork
+            // For Classic Theme
+                // Insert background image
+                document.getElementById('bg_container').style.display = "block";
+                document.getElementById('bg_img').src = "https://files.sten.to/image/69e608a36dc1188b76c3e66d/3cba0cf463ff5a21db07ac4fc5bab3d8c772d9d2da51c1637fe457fbee5447a1.jpg";
+
+
+
+
+        // ajaxPOST
+        function ajaxPOST(url, body, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function (res) {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    if (typeof callback === 'function') callback(null, JSON.parse(xhr.responseText));
+                }
+            };
+            var data = JSON.stringify(body);
+            xhr.send(data);
+        }
+
+        // ajaxGET
+        function ajaxGET(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.onreadystatechange = function (res) {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        if (typeof callback === 'function') callback(null, JSON.parse(xhr.responseText));
+                    } else {
+                        if (typeof callback === 'function') callback({ status: xhr.status });
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+    </script>
+
+
+
+        <script>
+            var ePlayButton = document.getElementById('play-button');
+            var eAudio = document.getElementById('audio-preview');
+            var bPlaying = false;
+            if (ePlayButton && eAudio) {
+                var sPauseIcon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z' fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='32'/%3E%3Crect x='190' y='176' width='36' height='160' rx='8'/%3E%3Crect x='286' y='176' width='36' height='160' rx='8'/%3E%3C/svg%3E";
+                var sPlayIcon = ePlayButton.src;
+                ePlayButton.addEventListener('click', function() {
+                    if (bPlaying) {
+                        eAudio.pause();
+                        ePlayButton.src = sPlayIcon;
+                        bPlaying = false;
+                    } else {
+                        eAudio.play();
+                        ePlayButton.src = sPauseIcon;
+                        bPlaying = true;
+                    }
+                });
+                eAudio.addEventListener('ended', function() {
+                    ePlayButton.src = sPlayIcon;
+                    bPlaying = false;
+                });
+            }
+        </script>
+
+    <!-- Cookie Consent -->
+    <!-- Include Region Detection Component -->
+    <!-- Script for region detection -->
+    <script>
+        
+        // isInEU
+        // Determines whether user is in the EU using Cloudflare headers
+        async function isInEU() {
+            try {
+                const response = await fetch("https://signalraven.com/geolocation");
+                const country = response.headers.get('geo_country');
+                const isInEU = aGDPRCountryCodes.hasOwnProperty(country);
+                console.log("isInEU: " + isInEU);
+                return isInEU;
+            } catch (error) {
+                console.error(error);
+                return false;
+            }
+        }
+    
+        var aGDPRCountryCodes = {
+            AT: 'Austria',
+            BE: 'Belgium',
+            BG: 'Bulgaria',
+            HR: 'Croatia',
+            CY: 'Cyprus',
+            CZ: 'Czech Republic',
+            DK: 'Denmark',
+            EE: 'Estonia',
+            FI: 'Finland',
+            FR: 'France',
+            DE: 'Germany',
+            EL: 'Greece',
+            HU: 'Hungary',
+            IE: 'Ireland',
+            IT: 'Italy',
+            LV: 'Latvia',
+            LT: 'Lithuania',
+            LU: 'Luxembourg',
+            MT: 'Malta',
+            NL: 'Netherlands',
+            PL: 'Poland',
+            PT: 'Portugal',
+            RO: 'Romania',
+            SK: 'Slovakia',
+            SI: 'Slovenia',
+            ES: 'Spain',
+            SE: 'Sweden',
+            IS: 'Iceland',
+            LI: 'Liechtenstein',
+            NO: 'Norway',
+            GB: 'United Kingdom'
+        };
+    
+    </script>
+    
+    
+    
+    
+
+		<footer><p>By Sajith Babu</p></footer>
+	</main>
+
+</center>
+</center>
+</body>
+</html>

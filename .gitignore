@@ -1,0 +1,4 @@
+.DS_Store
+# Old web-host placeholder page and Apache config, not used on GitHub Pages
+index.html.moved
+cgi-bin/
